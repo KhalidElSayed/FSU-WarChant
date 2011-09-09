@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVAudioPlayer.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate, AVAudioPlayerDelegate>
+{
+   
+    NSMutableArray *chants;
+    AVAudioPlayer *mainPlayer;
+    
+    
+    UIScrollView *scrollView;
+}
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) AVAudioPlayer *mainPlayer;
+@property (strong, nonatomic) NSMutableArray *chants;
+
 
 @end

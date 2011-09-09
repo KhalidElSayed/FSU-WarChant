@@ -14,21 +14,52 @@
 		FAB47537141A9E5D0000075F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB47536141A9E5D0000075F /* AppDelegate.m */; };
 		FAB4753A141A9E5D0000075F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB47539141A9E5D0000075F /* ViewController.m */; };
 		FAB4753D141A9E5D0000075F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB4753B141A9E5D0000075F /* ViewController.xib */; };
+		FAB47548141AA0A60000075F /* robots.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB47547141AA0A60000075F /* robots.png */; };
+		FAB4754F141AA1F80000075F /* ChantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB4754D141AA1F80000075F /* ChantViewController.m */; };
+		FAB47550141AA1F80000075F /* ChantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB4754E141AA1F80000075F /* ChantViewController.xib */; };
+		FAB47552141AA29B0000075F /* megaphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB47551141AA29B0000075F /* megaphone.png */; };
+		FAB47554141AA37A0000075F /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB47553141AA37A0000075F /* clear.png */; };
+		FAB47562141AA9FE0000075F /* Florida_State__4th_Quarter_Fanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4755A141AA9FE0000075F /* Florida_State__4th_Quarter_Fanfare.mp3 */; };
+		FAB47563141AA9FE0000075F /* Florida_State__FSU_Cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4755B141AA9FE0000075F /* Florida_State__FSU_Cheer.mp3 */; };
+		FAB47564141AA9FE0000075F /* Florida_State__FSU_Fight_Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4755C141AA9FE0000075F /* Florida_State__FSU_Fight_Song.mp3 */; };
+		FAB47565141AA9FE0000075F /* Florida_State__FSU_Fight_Song_old.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4755D141AA9FE0000075F /* Florida_State__FSU_Fight_Song_old.mp3 */; };
+		FAB47566141AA9FE0000075F /* Florida_State__Gold_And_Garnett.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4755E141AA9FE0000075F /* Florida_State__Gold_And_Garnett.mp3 */; };
+		FAB47567141AA9FE0000075F /* Florida_State__Seminole_Uprising.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4755F141AA9FE0000075F /* Florida_State__Seminole_Uprising.mp3 */; };
+		FAB47568141AA9FE0000075F /* Florida_State__Victory_Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB47560141AA9FE0000075F /* Florida_State__Victory_Song.mp3 */; };
+		FAB47569141AA9FE0000075F /* Florida_State__War_Chant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB47561141AA9FE0000075F /* Florida_State__War_Chant.mp3 */; };
+		FAB4756B141AAB1B0000075F /* sorryAmerica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB4756A141AAB1B0000075F /* sorryAmerica.mp3 */; };
+		FAB4756D141AAE7A0000075F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4756C141AAE7A0000075F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAB47524141A9E5D0000075F /* FSU WarChant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSU WarChant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB47528141A9E5D0000075F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAB4752A141A9E5D0000075F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FAB4752E141A9E5D0000075F /* FSU WarChant-Info.plist */ = {isa = PBXFileReference; path = "FSU WarChant-Info.plist"; sourceTree = "<group>"; };
+		FAB4752E141A9E5D0000075F /* FSU WarChant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSU WarChant-Info.plist"; sourceTree = "<group>"; };
 		FAB47530141A9E5D0000075F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAB47532141A9E5D0000075F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAB47534141A9E5D0000075F /* FSU WarChant-Prefix.pch */ = {isa = PBXFileReference; path = "FSU WarChant-Prefix.pch"; sourceTree = "<group>"; };
-		FAB47535141A9E5D0000075F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB47534141A9E5D0000075F /* FSU WarChant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSU WarChant-Prefix.pch"; sourceTree = "<group>"; };
+		FAB47535141A9E5D0000075F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAB47536141A9E5D0000075F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAB47538141A9E5D0000075F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FAB47538141A9E5D0000075F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FAB47539141A9E5D0000075F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAB4753C141A9E5D0000075F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FAB47547141AA0A60000075F /* robots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robots.png; sourceTree = "<group>"; };
+		FAB4754C141AA1F80000075F /* ChantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChantViewController.h; sourceTree = "<group>"; };
+		FAB4754D141AA1F80000075F /* ChantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChantViewController.m; sourceTree = "<group>"; };
+		FAB4754E141AA1F80000075F /* ChantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChantViewController.xib; sourceTree = "<group>"; };
+		FAB47551141AA29B0000075F /* megaphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megaphone.png; sourceTree = "<group>"; };
+		FAB47553141AA37A0000075F /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		FAB4755A141AA9FE0000075F /* Florida_State__4th_Quarter_Fanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__4th_Quarter_Fanfare.mp3; sourceTree = "<group>"; };
+		FAB4755B141AA9FE0000075F /* Florida_State__FSU_Cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__FSU_Cheer.mp3; sourceTree = "<group>"; };
+		FAB4755C141AA9FE0000075F /* Florida_State__FSU_Fight_Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__FSU_Fight_Song.mp3; sourceTree = "<group>"; };
+		FAB4755D141AA9FE0000075F /* Florida_State__FSU_Fight_Song_old.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__FSU_Fight_Song_old.mp3; sourceTree = "<group>"; };
+		FAB4755E141AA9FE0000075F /* Florida_State__Gold_And_Garnett.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__Gold_And_Garnett.mp3; sourceTree = "<group>"; };
+		FAB4755F141AA9FE0000075F /* Florida_State__Seminole_Uprising.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__Seminole_Uprising.mp3; sourceTree = "<group>"; };
+		FAB47560141AA9FE0000075F /* Florida_State__Victory_Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__Victory_Song.mp3; sourceTree = "<group>"; };
+		FAB47561141AA9FE0000075F /* Florida_State__War_Chant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Florida_State__War_Chant.mp3; sourceTree = "<group>"; };
+		FAB4756A141AAB1B0000075F /* sorryAmerica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sorryAmerica.mp3; sourceTree = "<group>"; };
+		FAB4756C141AAE7A0000075F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB4756D141AAE7A0000075F /* AVFoundation.framework in Frameworks */,
 				FAB47529141A9E5D0000075F /* UIKit.framework in Frameworks */,
 				FAB4752B141A9E5D0000075F /* Foundation.framework in Frameworks */,
 			);
@@ -47,6 +79,7 @@
 		FAB47519141A9E5D0000075F = {
 			isa = PBXGroup;
 			children = (
+				FAB4756C141AAE7A0000075F /* AVFoundation.framework */,
 				FAB4752C141A9E5D0000075F /* FSU WarChant */,
 				FAB47527141A9E5D0000075F /* Frameworks */,
 				FAB47525141A9E5D0000075F /* Products */,
@@ -73,6 +106,7 @@
 		FAB4752C141A9E5D0000075F /* FSU WarChant */ = {
 			isa = PBXGroup;
 			children = (
+				FAB4754B141AA1D90000075F /* ChantViewControllers */,
 				FAB47535141A9E5D0000075F /* AppDelegate.h */,
 				FAB47536141A9E5D0000075F /* AppDelegate.m */,
 				FAB47538141A9E5D0000075F /* ViewController.h */,
@@ -86,12 +120,42 @@
 		FAB4752D141A9E5D0000075F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAB4756A141AAB1B0000075F /* sorryAmerica.mp3 */,
+				FAB47559141AA9FE0000075F /* FSU War Chants */,
+				FAB47553141AA37A0000075F /* clear.png */,
+				FAB47551141AA29B0000075F /* megaphone.png */,
+				FAB47547141AA0A60000075F /* robots.png */,
 				FAB4752E141A9E5D0000075F /* FSU WarChant-Info.plist */,
 				FAB4752F141A9E5D0000075F /* InfoPlist.strings */,
 				FAB47532141A9E5D0000075F /* main.m */,
 				FAB47534141A9E5D0000075F /* FSU WarChant-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB4754B141AA1D90000075F /* ChantViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4754C141AA1F80000075F /* ChantViewController.h */,
+				FAB4754D141AA1F80000075F /* ChantViewController.m */,
+				FAB4754E141AA1F80000075F /* ChantViewController.xib */,
+			);
+			name = ChantViewControllers;
+			sourceTree = "<group>";
+		};
+		FAB47559141AA9FE0000075F /* FSU War Chants */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4755A141AA9FE0000075F /* Florida_State__4th_Quarter_Fanfare.mp3 */,
+				FAB4755B141AA9FE0000075F /* Florida_State__FSU_Cheer.mp3 */,
+				FAB4755C141AA9FE0000075F /* Florida_State__FSU_Fight_Song.mp3 */,
+				FAB4755D141AA9FE0000075F /* Florida_State__FSU_Fight_Song_old.mp3 */,
+				FAB4755E141AA9FE0000075F /* Florida_State__Gold_And_Garnett.mp3 */,
+				FAB4755F141AA9FE0000075F /* Florida_State__Seminole_Uprising.mp3 */,
+				FAB47560141AA9FE0000075F /* Florida_State__Victory_Song.mp3 */,
+				FAB47561141AA9FE0000075F /* Florida_State__War_Chant.mp3 */,
+			);
+			path = "FSU War Chants";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +211,19 @@
 			files = (
 				FAB47531141A9E5D0000075F /* InfoPlist.strings in Resources */,
 				FAB4753D141A9E5D0000075F /* ViewController.xib in Resources */,
+				FAB47548141AA0A60000075F /* robots.png in Resources */,
+				FAB47550141AA1F80000075F /* ChantViewController.xib in Resources */,
+				FAB47552141AA29B0000075F /* megaphone.png in Resources */,
+				FAB47554141AA37A0000075F /* clear.png in Resources */,
+				FAB47562141AA9FE0000075F /* Florida_State__4th_Quarter_Fanfare.mp3 in Resources */,
+				FAB47563141AA9FE0000075F /* Florida_State__FSU_Cheer.mp3 in Resources */,
+				FAB47564141AA9FE0000075F /* Florida_State__FSU_Fight_Song.mp3 in Resources */,
+				FAB47565141AA9FE0000075F /* Florida_State__FSU_Fight_Song_old.mp3 in Resources */,
+				FAB47566141AA9FE0000075F /* Florida_State__Gold_And_Garnett.mp3 in Resources */,
+				FAB47567141AA9FE0000075F /* Florida_State__Seminole_Uprising.mp3 in Resources */,
+				FAB47568141AA9FE0000075F /* Florida_State__Victory_Song.mp3 in Resources */,
+				FAB47569141AA9FE0000075F /* Florida_State__War_Chant.mp3 in Resources */,
+				FAB4756B141AAB1B0000075F /* sorryAmerica.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +237,7 @@
 				FAB47533141A9E5D0000075F /* main.m in Sources */,
 				FAB47537141A9E5D0000075F /* AppDelegate.m in Sources */,
 				FAB4753A141A9E5D0000075F /* ViewController.m in Sources */,
+				FAB4754F141AA1F80000075F /* ChantViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +314,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FSU WarChant/FSU WarChant-Prefix.pch";
 				INFOPLIST_FILE = "FSU WarChant/FSU WarChant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,7 +327,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FSU WarChant/FSU WarChant-Prefix.pch";
 				INFOPLIST_FILE = "FSU WarChant/FSU WarChant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
