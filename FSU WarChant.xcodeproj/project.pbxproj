@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB47529141A9E5D0000075F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB47528141A9E5D0000075F /* UIKit.framework */; };
+		FAB4752B141A9E5D0000075F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4752A141A9E5D0000075F /* Foundation.framework */; };
+		FAB47531141A9E5D0000075F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB4752F141A9E5D0000075F /* InfoPlist.strings */; };
+		FAB47533141A9E5D0000075F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB47532141A9E5D0000075F /* main.m */; };
+		FAB47537141A9E5D0000075F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB47536141A9E5D0000075F /* AppDelegate.m */; };
+		FAB4753A141A9E5D0000075F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB47539141A9E5D0000075F /* ViewController.m */; };
+		FAB4753D141A9E5D0000075F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB4753B141A9E5D0000075F /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB47524141A9E5D0000075F /* FSU WarChant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSU WarChant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB47528141A9E5D0000075F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAB4752A141A9E5D0000075F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAB4752E141A9E5D0000075F /* FSU WarChant-Info.plist */ = {isa = PBXFileReference; path = "FSU WarChant-Info.plist"; sourceTree = "<group>"; };
+		FAB47530141A9E5D0000075F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAB47532141A9E5D0000075F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB47534141A9E5D0000075F /* FSU WarChant-Prefix.pch */ = {isa = PBXFileReference; path = "FSU WarChant-Prefix.pch"; sourceTree = "<group>"; };
+		FAB47535141A9E5D0000075F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB47536141A9E5D0000075F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB47538141A9E5D0000075F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FAB47539141A9E5D0000075F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB4753C141A9E5D0000075F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB47521141A9E5D0000075F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB47529141A9E5D0000075F /* UIKit.framework in Frameworks */,
+				FAB4752B141A9E5D0000075F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB47519141A9E5D0000075F = {
+			isa = PBXGroup;
+			children = (
+				FAB4752C141A9E5D0000075F /* FSU WarChant */,
+				FAB47527141A9E5D0000075F /* Frameworks */,
+				FAB47525141A9E5D0000075F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB47525141A9E5D0000075F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB47524141A9E5D0000075F /* FSU WarChant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB47527141A9E5D0000075F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB47528141A9E5D0000075F /* UIKit.framework */,
+				FAB4752A141A9E5D0000075F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB4752C141A9E5D0000075F /* FSU WarChant */ = {
+			isa = PBXGroup;
+			children = (
+				FAB47535141A9E5D0000075F /* AppDelegate.h */,
+				FAB47536141A9E5D0000075F /* AppDelegate.m */,
+				FAB47538141A9E5D0000075F /* ViewController.h */,
+				FAB47539141A9E5D0000075F /* ViewController.m */,
+				FAB4753B141A9E5D0000075F /* ViewController.xib */,
+				FAB4752D141A9E5D0000075F /* Supporting Files */,
+			);
+			path = "FSU WarChant";
+			sourceTree = "<group>";
+		};
+		FAB4752D141A9E5D0000075F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4752E141A9E5D0000075F /* FSU WarChant-Info.plist */,
+				FAB4752F141A9E5D0000075F /* InfoPlist.strings */,
+				FAB47532141A9E5D0000075F /* main.m */,
+				FAB47534141A9E5D0000075F /* FSU WarChant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB47523141A9E5D0000075F /* FSU WarChant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB47540141A9E5D0000075F /* Build configuration list for PBXNativeTarget "FSU WarChant" */;
+			buildPhases = (
+				FAB47520141A9E5D0000075F /* Sources */,
+				FAB47521141A9E5D0000075F /* Frameworks */,
+				FAB47522141A9E5D0000075F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FSU WarChant";
+			productName = "FSU WarChant";
+			productReference = FAB47524141A9E5D0000075F /* FSU WarChant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB4751B141A9E5D0000075F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = FAB4751E141A9E5D0000075F /* Build configuration list for PBXProject "FSU WarChant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB47519141A9E5D0000075F;
+			productRefGroup = FAB47525141A9E5D0000075F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB47523141A9E5D0000075F /* FSU WarChant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB47522141A9E5D0000075F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB47531141A9E5D0000075F /* InfoPlist.strings in Resources */,
+				FAB4753D141A9E5D0000075F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB47520141A9E5D0000075F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB47533141A9E5D0000075F /* main.m in Sources */,
+				FAB47537141A9E5D0000075F /* AppDelegate.m in Sources */,
+				FAB4753A141A9E5D0000075F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB4752F141A9E5D0000075F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB47530141A9E5D0000075F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAB4753B141A9E5D0000075F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB4753C141A9E5D0000075F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB4753E141A9E5D0000075F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAB4753F141A9E5D0000075F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB47541141A9E5D0000075F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSU WarChant/FSU WarChant-Prefix.pch";
+				INFOPLIST_FILE = "FSU WarChant/FSU WarChant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAB47542141A9E5D0000075F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSU WarChant/FSU WarChant-Prefix.pch";
+				INFOPLIST_FILE = "FSU WarChant/FSU WarChant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB4751E141A9E5D0000075F /* Build configuration list for PBXProject "FSU WarChant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB4753E141A9E5D0000075F /* Debug */,
+				FAB4753F141A9E5D0000075F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB47540141A9E5D0000075F /* Build configuration list for PBXNativeTarget "FSU WarChant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB47541141A9E5D0000075F /* Debug */,
+				FAB47542141A9E5D0000075F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB4751B141A9E5D0000075F /* Project object */;
+}
