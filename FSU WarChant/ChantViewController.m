@@ -13,6 +13,9 @@
 @synthesize topLabel;
 @synthesize index;
 @synthesize player;
+@synthesize delegate;
+@synthesize  songs;
+
 
 -(id)initWithIndex:(int)idx
 {
@@ -45,58 +48,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-
-    
-    NSString *fileName = [[NSString alloc ]init];
-    
-    switch ([self.index intValue]) {
-        case 0:
-            fileName = @"Florida_State__FSU_Cheer";
-            break;
-        case 1:
-            fileName = @"Florida_State__FSU_Fight_Song";
-            break;
-        case 2:
-            fileName = @"Florida_State__4th_Quarter_Fanfare";
-            break;
-        case 3:
-            fileName = @"Florida_State__FSU_Fight_Song_old";
-            break;
-        case 4:
-            fileName = @"Florida_State__Gold_And_Garnett";
-            break;
-        case 5:
-            fileName = @"Florida_State__Seminole_Uprising";
-            break;
-        case 6:
-            fileName = @"Florida_State__Victory_Song";
-            break;
-        case 7:
-            fileName = @"Florida_State__War_Chant";
-            break;
-        default:
-            fileName = @"sorryAmerica";
-            break;
-    }
-    
-    self.topLabel.text = fileName;
-    
-    NSString *path = [[NSBundle mainBundle]
-                      pathForResource:fileName ofType:@"mp3"];
-    [NSURL fileURLWithPath:path];
-    
-    
-    NSError *error = [[NSError alloc]init];
-    
-    
-    
-    if(error)
-        NSLog(@"%@",error);
-    
-    
-    player.delegate = self;
-    
-    
+    self.topLabel.text = [songs objectAtIndex:[self.index unsignedIntegerValue]];
 
     
 }
@@ -118,11 +70,7 @@
 
 - (IBAction)megaphonePressed:(id)sender {
     
-    if ([self.player isPlaying])
-        [player pause];
-    else        
-    [player play];
-
+    [self.delegate didSelectMegaphone:self.index.intValue];
 
 }
 
