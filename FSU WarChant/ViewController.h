@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVAudioPlayer.h>
+
 #import "ChantViewController.h"
 #import "SliderPageControl.h"
 
@@ -22,6 +23,8 @@
     SliderPageControl *sliderPageControl;
     BOOL pageControlUsed;
     
+    
+
 }
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) AVAudioPlayer *mainPlayer;
@@ -30,6 +33,7 @@
 @property (strong, nonatomic) NSNumber *indexPlaying;
 
 @property (strong, nonatomic) SliderPageControl *sliderPageControl;
+
 
 
 - (void)slideToCurrentPage:(bool)animated;

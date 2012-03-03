@@ -12,6 +12,9 @@
 		FA748474141B252E006695C2 /* SliderPageControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA748473141B252E006695C2 /* SliderPageControl.bundle */; };
 		FA748476141B29EE006695C2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA748475141B29ED006695C2 /* icon.png */; };
 		FA748478141B29F3006695C2 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA748477141B29F3006695C2 /* icon2.png */; };
+		FA7484CA141FF7A8006695C2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7484C9141FF7A8006695C2 /* Icon.png */; };
+		FA7484CD14200047006695C2 /* RKRssFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7484CC14200047006695C2 /* RKRssFeedParser.m */; };
+		FA7484D014200068006695C2 /* RKRssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7484CF14200068006695C2 /* RKRssItem.m */; };
 		FAB47529141A9E5D0000075F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB47528141A9E5D0000075F /* UIKit.framework */; };
 		FAB4752B141A9E5D0000075F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4752A141A9E5D0000075F /* Foundation.framework */; };
 		FAB47531141A9E5D0000075F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB4752F141A9E5D0000075F /* InfoPlist.strings */; };
@@ -43,6 +46,11 @@
 		FA748473141B252E006695C2 /* SliderPageControl.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SliderPageControl.bundle; sourceTree = "<group>"; };
 		FA748475141B29ED006695C2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		FA748477141B29F3006695C2 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = ../icon2.png; sourceTree = "<group>"; };
+		FA7484C9141FF7A8006695C2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FA7484CB14200047006695C2 /* RKRssFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKRssFeedParser.h; sourceTree = "<group>"; };
+		FA7484CC14200047006695C2 /* RKRssFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKRssFeedParser.m; sourceTree = "<group>"; };
+		FA7484CE14200067006695C2 /* RKRssItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKRssItem.h; sourceTree = "<group>"; };
+		FA7484CF14200068006695C2 /* RKRssItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKRssItem.m; sourceTree = "<group>"; };
 		FAB47524141A9E5D0000075F /* FSU WarChant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSU WarChant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB47528141A9E5D0000075F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAB4752A141A9E5D0000075F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +105,18 @@
 			name = "Slider Page Control";
 			sourceTree = "<group>";
 		};
+		FA7484B2141FF791006695C2 /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				FA7484C9141FF7A8006695C2 /* Icon.png */,
+				FA7484CB14200047006695C2 /* RKRssFeedParser.h */,
+				FA7484CC14200047006695C2 /* RKRssFeedParser.m */,
+				FA7484CE14200067006695C2 /* RKRssItem.h */,
+				FA7484CF14200068006695C2 /* RKRssItem.m */,
+			);
+			name = MWFeedParser;
+			sourceTree = "<group>";
+		};
 		FAB47519141A9E5D0000075F = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +148,7 @@
 		FAB4752C141A9E5D0000075F /* FSU WarChant */ = {
 			isa = PBXGroup;
 			children = (
+				FA7484B2141FF791006695C2 /* MWFeedParser */,
 				FA748470141B22A5006695C2 /* Slider Page Control */,
 				FAB4754B141AA1D90000075F /* ChantViewControllers */,
 				FAB47535141A9E5D0000075F /* AppDelegate.h */,
@@ -253,6 +274,7 @@
 				FA748474141B252E006695C2 /* SliderPageControl.bundle in Resources */,
 				FA748476141B29EE006695C2 /* icon.png in Resources */,
 				FA748478141B29F3006695C2 /* icon2.png in Resources */,
+				FA7484CA141FF7A8006695C2 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +290,8 @@
 				FAB4753A141A9E5D0000075F /* ViewController.m in Sources */,
 				FAB4754F141AA1F80000075F /* ChantViewController.m in Sources */,
 				FA74846F141B22A0006695C2 /* SliderPageControl.m in Sources */,
+				FA7484CD14200047006695C2 /* RKRssFeedParser.m in Sources */,
+				FA7484D014200068006695C2 /* RKRssItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

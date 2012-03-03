@@ -11,6 +11,7 @@
 
 
 
+
 #define kNumberOfPages 8
 
 @interface ViewController (PrivateMethods)
@@ -39,7 +40,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     
-    self.songArray = [NSArray arrayWithObjects:@"FSU Cheer",@"FSU Fight Song",@"4th Quarter Fanfare",@"Old FSU Fight Song",@"Gold And Garnett",@"Seminole Uprising",@"Victory Song",@"War Chant",@"sorryAmerica",nil];
+    self.songArray = [NSArray arrayWithObjects:@"War Chant",@"FSU Fight Song",@"Gold And Garnett", @"FSU Cheer",@"4th Quarter Fanfare",@"Old FSU Fight Song",@"Seminole Uprising",@"Victory Song",@"sorryAmerica",nil];
     
     
     self.scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"robots.png"]];
@@ -53,10 +54,12 @@
     }
     chants = controllers;
     
-    
-    [self loadScrollViewWithPage:0];
-    [self loadScrollViewWithPage:1];
-    [self loadScrollViewWithPage:2];
+    for (unsigned i = 0; i < kNumberOfPages; i++)
+    {
+		    [self loadScrollViewWithPage:i];    }
+
+
+  
     
     [self setUpPlayer];
 
@@ -68,7 +71,6 @@
 
     [self.sliderPageControl setNumberOfPages:kNumberOfPages];
     [self.sliderPageControl setAutoresizingMask:UIViewAutoresizingFlexibleTopMargin];
-
 
     [self changeToPage:1 animated:NO];
 
